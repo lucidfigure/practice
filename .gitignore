@@ -1,32 +1,16 @@
-# Prerequisites
-*.d
+#include <iostream>
+using namesapce std;
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+int main () 
+{
+string name; string city; string car;
+cout << "Enter name: ";
+cin >> name;
+cout << "Enter city: ";
+cin >> city;
+cout << "Enter car make, model, and year: ";
+cin >> car;
 
-# Precompiled Headers
-*.gch
-*.pch
+cout << " My name is " << name << ". I live in " << city << " and I drive a " << car << ".";
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+return 0;
